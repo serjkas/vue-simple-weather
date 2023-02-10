@@ -1,0 +1,28 @@
+* {
+  font-family: MONOSPACE;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.first-choise .el-input {
+  width: 200px;
+}
+.first-choise {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  justify-content: center;
+}
